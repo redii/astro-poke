@@ -1,0 +1,19 @@
+---
+import Social from "./Social.astro";
+
+const repo = "https://github.com/redii/astro-poke-api";
+---
+
+<footer>
+  <Social label="Repository" url="https://github.com/redii/astro-poke-api" />
+  <Social label="Github" url="https://github.com/redii" />
+  <Social label="Website" url="https://www.akmann.dev" />
+</footer>
+
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
